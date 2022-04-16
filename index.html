@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tabuada</title>
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <main>
+        <div class="container">         
+            <p>Número: </p>
+            <input type="number" name="num" id="txtn">
+            <input type="button" onclick="soma(); sub(); multi(); divis();" value="Gerar Tabuada">
+        </div>
+       
+        <div class="opcoes">
+            <select name="tabuada" id="seltabadi" size="10">
+                <option id="adi">Adição</option>
+            </select> 
+            <select name="tabuada" id="seltabsub" size="10">
+                <option id="sub">Subtração</option>
+            </select> 
+         </div>
+         <div class="opcoes">   
+            <select name="tabuada" id="seltabmulti" size="10">
+                <option id="mult">Multiplcação</option>
+            </select> 
+            <select name="tabuada" id="seltabdivis" size="10">
+                <option id="divs">Divisão</option>
+            </select> 
+        </div>      
+
+    </main>
+    
+    <footer>&copy; <i>By John Erick</i></footer>
+
+    <script src="./tabuada.js"></script>
+</body>
+</html>

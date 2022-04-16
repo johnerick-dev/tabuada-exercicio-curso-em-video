@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(31, 246, 114);
+    font-family: 'Oswald', sans-serif;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    width: 25rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    color: rgb(5, 92, 92);
+    font-size: 36pt;
+}
+main {
+    border: 1px solid;
+    width: 25rem;
+    min-height: 15rem;
+    height: auto;
+    margin: auto;
+    padding: 1rem;
+    background-color: rgb(235, 234, 231);
+    border-radius: 15px;
+    box-shadow: 25px 18px teal;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.opcoes {
+    display: flex;
+}
+select {
+    display: flex;
+    margin: auto;
+    margin-top: 0.6rem;
+    width: 11rem;
+    text-align: center;
+    padding: 4px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    margin: auto;
+    margin-top: 2.5rem;
+    font-size: 12pt;
+}
